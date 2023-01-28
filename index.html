@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nagendra's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/star.ico">
+    <script src="https://kit.fontawesome.com/43fc782354.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+    function myFunction()
+    {
+      var x = document.getElementsByClassName("toggle-list")[0];
+      if (x.style.display === "block")
+      {
+        x.style.display = "none";
+      }
+      else
+      {
+        x.style.display = "block";
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My <span class = "portfolio">Portfolio</span></h1>
+        <ul>
+          <li><a href="#skills">my skills</a></li>
+          <li><a href = "#footer">contact me</a></li>
+          <button type="button" name="button" class = "toggle-button" onclick = "myFunction()"><i class="fa-solid fa-bars"></i></button>
+        </ul>
+     </nav>
+     <ul class = "toggle-list">
+       <li><a href="#skills">my skills</a></li>
+       <li><a href = "#footer">contact me</a></li>
+     </ul>
+    </header>
+    <section class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Nagendra babu.</h1>
+      <h2><p>a Programmer.</p></h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img" width = '50%'>
+    </section>
+    <section class="middle-container">
+      <div class="profile">
+        <h2>Hello.</h2>
+        <p>Skilled and knowledgeable engineer looking forward to having a career in design and development of software applications.
+          My projects and steep- learning curve reflect my ambition and passion
+          for Web development, Automation and data engineering. I am always open to learning and
+          unlearning at the same time. Unlearning as in letting go of outdated practices and ideas.</p>
+        <img src="images/programmer.png" alt="programmer">
+      </div>
+      <div class="skills" id = "skills">
+        <h2>My <span class="skill-heading">Skills</span></h2>
+        <div class="skill-row">
+          <img class="code-img" src="images/coding-language.png" alt="code-img">
+          <table class="skill">
+            <caption><h3>Design and Development</h3></caption>
+            <tr>
+              <td><img src="images/ruby.png"></td>
+              <td class="skill-name">Ruby</td>
+              <td><img src="images/java.png"></td>
+              <td class="skill-name">Java</td>
+              <td><img src="images/python.png"></td>
+              <td class="skill-name">Python</td>
+            </tr>
+            <tr>
+              <td><img src="images/html-5.png"></td>
+              <td class="skill-name">HTML</td>
+              <td><img src="images/javascript.png"></td>
+              <td class="skill-name">JavaScript</td>
+              <td><img src="images/sql.png"></td>
+              <td class="skill-name">SQL</td>
+            </tr>
+          </table>
+        </div>
+        <div class="skill-row">
+          <img class="code-img" src="images/translation.png" alt="code-img">
+          <h3>Languages Known</h3>
+          <ul class = "languages">
+            <li>Telugu</li>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Japanese</li>
+          </ul>
+        </div>
+      </div>
+      <div class="education">
+        <h2>Education</h2>
+        <figure>
+          <img class="north-logo" src="images/northeastern-logo.jpg" alt="code-img">
+          <figcaption>
+            <p><strog>Northeastern university</strong></p>
+            <p>Master of science - Information systems</p>
+            <p>2022-2024</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="srm-logo" src="images/srmlogo.png" alt="code-img">
+          <figcaption>
+            <p><strog>SRM Institute of science and technology</strong></p>
+            <p>Bachelor of Technology - Information Technology</p>
+            <p>2016-2020</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="certification">
+        <h1>My <span class = "cert-heading">Certifications</span></h1>
+        <figure class = "figure">
+          <img src="images/aws-sa.png" alt="AWS certification">
+          <figcaption>AWS Solutions architect</figcaption>
+        </figure>
+        <figure class = "figure">
+          <img src="images/oracle.png" alt="Oracle certification">
+          <figcaption>Oracle Java SE11<br>certified</figcaption>
+        </figure>
+        <figure class = "figure">
+          <img src="images/aws-da.png" alt="AWS certification">
+          <figcaption>AWS Developer Associate</figcaption>
+        </figure>
+      </div>
+      <div class="projects">
+        <h1>My <span class="cert-heading">Projects</span></h1>
+        <div class="project">
+           <h3>SRM Faculty staff directory</h3>
+           <p>SRM faculty staff directory enables users to view SRM university faculty details effortlessly.
+           </p>
+           <a href="https://github.com/NAGENDRAHARU/Online-Faculty-Staff-Directory" target="_blank"><button type="button" name="button" class="btn">Link</button></a>
+        </div>
+        <div class="project">
+          <h3>Tindog-A-tinder-clone</h3>
+          <p>A responsive tinder clone design which can be used for any business related websites.</p>
+          <a href="https://nagendraharu.github.io/tindog-A-tinder-clone/" target="_blank"><button type="button" name="button" class="btn">Link</button></a>
+        </div>
+        <div class="project">
+          <h3>Drum kit</h3>
+          <p>Drum kit Application can be used to play drums and have fun with friends and family.</p>
+          <a href="https://nagendraharu.github.io/Drum-Kit/" target="_blank"><button type="button" name="button" class="btn">Link</button></a>
+        </div>
+      </div>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Find me on LinkedIn!</h3>
+        <h3>If you're trying to contact me professionally, look me up on<a href="https://www.linkedin.com/in/nagendra-babu-shakamuri-b7813b170/" target="_blank" class="linkedin">LinkedIn.</a></h3>
+        <a class="btn" href="mailto:nbabu724@gmail.com">CONTACT ME</a>
+      </div>
+    </section>
+
+    <footer class="bottom-container" id = "footer">
+      <a class="footer-link" href="https://www.linkedin.com/in/nagendra-babu-shakamuri-b7813b170/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="tel:7818170970">Call me</a>
+      <a class="footer-link" href="https://github.com/NAGENDRAHARU" target="_blank">Github</a>
+      <p class="copyright">© 2023 Nagendra babu Shakamuri.</p>
+    </footer>
+
+  </body>
+</html>
